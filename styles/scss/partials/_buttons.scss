@@ -1,0 +1,23 @@
+
+.btn-large{
+  padding: 10px 25px;
+  border: 0px;
+
+  a{
+      color:white;
+    &:hover{
+      text-decoration: none;
+        color:white;
+    }
+  }
+}
+
+.btn-blue{
+  background-color: $colorBlue;
+  color:white;
+}
+
+.btn-grey{
+  background-color: $colorGrey;
+  color:white;
+}
