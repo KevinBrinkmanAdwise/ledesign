@@ -9,5 +9,14 @@ $colorBlack: #747474;
 
 
 .pad50{
-  padding:50px 0;
+  padding:50px 15px 50px 15px;
+}
+
+
+.pad100{
+  padding:100px 15px 100px 15px;
+}
+
+.grey{
+  background-color: $colorLightGrey;
 }

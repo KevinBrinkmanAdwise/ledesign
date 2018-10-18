@@ -1,5 +1,11 @@
 .pad50 {
-  padding: 50px 0; }
+  padding: 50px 15px 50px 15px; }
+
+.pad100 {
+  padding: 100px 15px 100px 15px; }
+
+.grey {
+  background-color: #efefefef; }
 
 body, p, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif; }
@@ -11,19 +17,37 @@ h1 {
   font-size: 42px; }
 
 h2 {
-  margin: auto;
-  font-size: 26px;
-  padding: 20px;
+  font-size: 26px; }
+
+.quote {
+  border-left: 3px solid #009ee2;
+  padding: 10px 10px 10px 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  line-height: 32px;
+  font-style: italic; }
+
+.underline {
   position: relative;
   display: inline-block; }
-  h2::after {
+  .underline::after {
     content: '';
     background: #009ee2;
     width: 50%;
     height: 2px;
     display: block;
-    text-align: center;
     margin: 5px auto 0px auto; }
+
+.underline-r {
+  position: relative;
+  display: inline-block; }
+  .underline-r::after {
+    content: '';
+    background: #009ee2;
+    width: 40px;
+    height: 2px;
+    display: block;
+    margin: 10px 0; }
 
 p {
   font-size: 16px;
@@ -137,5 +161,82 @@ footer {
     padding: 25px 0; } }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
+.nav-pills .nav-link {
+  background-color: #efefef;
+  margin: 5px;
+  border-radius: 0px;
+  color: black; }
+
+.header-img-cat {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  align-items: center; }
+  .header-img-cat h1 {
+    text-transform: uppercase; }
+  .header-img-cat p {
+    color: white;
+    font-weight: 600;
+    font-size: 18px; }
+
+.header-content {
+  padding-top: 150px; }
+
+.widget {
+  background-color: #efefef;
+  padding: 25px 20px;
+  margin: 10px 0; }
+
+.product-overzicht {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 25px; }
+
+.gallery-title {
+  font-size: 36px;
+  color: #42B32F;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px; }
+
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #5e5e5e; }
+
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #42B32F;
+  margin-bottom: 30px; }
+
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #42B32F; }
+
+.btn-default:active .filter-button:active {
+  background-color: #42B32F;
+  color: white; }
+
+.port-image {
+  width: 100%; }
+
+.gallery_product {
+  margin-bottom: 30px; }
+
+.modal-dialog {
+  top: 25%; }
+
+.port-img {
+  margin: 10px 0; }
 
 /*# sourceMappingURL=styles.css.map */

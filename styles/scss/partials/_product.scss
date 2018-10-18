@@ -1,0 +1,39 @@
+.nav-pills{
+
+  .nav-link{
+    background-color: #efefef;
+    margin:5px;
+    border-radius: 0px;
+    color:black;
+  }
+}
+.header-img-cat{
+height: 350px;
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+
+align-items: center;
+h1{
+  text-transform: uppercase;
+}
+p{
+  color:white;
+  font-weight: 600;
+  font-size: 18px;
+}
+}
+
+.header-content{
+padding-top:150px;
+}
+
+.widget{
+  background-color: #efefef;
+  padding:25px 20px;
+  margin: 10px 0;
+}
+.product-overzicht{
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 25px;
+}
