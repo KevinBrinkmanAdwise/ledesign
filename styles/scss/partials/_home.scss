@@ -1,6 +1,12 @@
 .dienst{
   background-color: $colorLightGrey;
   padding: 30px 20px;
+  margin: 10px 0;
+
+  > img{
+     width:20%;
+     margin-bottom:20px;
+  }
 }
 
 
@@ -104,6 +110,9 @@ footer{
     @media only screen and (max-width : 768px) {
     footer{
       padding:25px 0;
+    }
+    .button-left, .button-right{
+      text-align: center
     }
     }
 

@@ -1460,7 +1460,7 @@ Extra @Media Query
     top: 0;
     left: 0;
     z-index: 10002;
-    height: 60px;
+    height: 100px;
     background-color: white;
     text-align: center;
     -webkit-transition: all 0.25s ease-in-out;
@@ -1497,7 +1497,7 @@ Extra @Media Query
     background-color: transparent;
     z-index: 1000;
     position: absolute;
-    top: 0px;
+    top: 25px;
     right: 0px;
     padding: 18px 22px;
     cursor: pointer;
@@ -1514,7 +1514,7 @@ Extra @Media Query
     width: 100%;
     height: 50px;
     line-height: 44px;
-    top: 0px;
+    top: 25px;
     left: 0;
     padding: 13px 15px;
     cursor: default;
@@ -1564,7 +1564,8 @@ Extra @Media Query
     left: 0px;
     right: auto;
     width: 100%;
-    height: 60px;
+    height: 100px;
+    top:0px;
   }
 
   .wsmobileheader .wssearch .fa-times {
@@ -1585,7 +1586,7 @@ Extra @Media Query
   .wsanimated-arrow {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 25px;
     z-index: 102;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -1709,7 +1710,7 @@ Extra @Media Query
     transition: all 0.25s ease-in-out;
     margin-left: 0;
     position: absolute;
-    top:60px;
+    top:100px;
   }
 
   /* ================== Mobile Sub Menu Expander Arrows  ================== */
@@ -1882,6 +1883,13 @@ Extra @Media Query
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    .headerwp{
+position: fixed;
+top:100px;
+width:100%;
+background-color:#efefef;
+z-index: 9999;
+    }
   .headerfull {
     height: auto;
   }
@@ -2350,7 +2358,7 @@ Extra @Media Query
   }
 
   .headtoppart {
-    margin-top: 60px;
+    margin-top: 100px;
     height: auto;
     background-color: rgba(0, 0, 0, 0.2);
   }

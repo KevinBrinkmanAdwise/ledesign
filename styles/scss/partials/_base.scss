@@ -20,3 +20,18 @@ $colorBlack: #747474;
 .grey{
   background-color: $colorLightGrey;
 }
+.B_crumbBox{
+  list-style: none;
+  padding-left: 0px;
+}
+.B_firstCrumb, .B_crumb, .B_lastCrumb{
+  display: inline-block;
+
+  a{
+    color: black;
+  &:hover{
+    color: $colorBlue;
+    text-decoration: none;
+  }
+}
+}
